@@ -1,0 +1,35 @@
+{
+    "logo": {
+        "text": "Alle Rechte vorbehalten.",
+        "copyRight": "Gumb AG"
+    },
+    "navigation": {
+        "title": "Navigation",
+        "links": {
+            "home": "Home",
+            "aboutUs": "Über uns",
+            "why": "Warum & Wie",
+            "community": "Community"
+        }
+    },
+    "aboutGump": {
+        "title": "Über Gumb",
+        "links": {
+            "aboutTeam": "Unser Team",
+            "missionAndVision": "Mission & Vision",
+            "UnsereGeschichte": "Unsere Geschichte"
+        }
+    },
+    "contactAndFeedback": {
+        "title": "Kontakt & Feedback",
+        "links": {
+            "social": "Soziale Kanäle",
+            "country": "Besuche uns in Schaffhausen, CH"
+        }
+    },
+    "additionalLinks": {
+        "privacy": "Datenschutz",
+        "AGB": "AGB",
+        "impressions": "Impressum"
+    }
+}

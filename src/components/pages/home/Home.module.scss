@@ -1,0 +1,308 @@
+@use '../../../styles/colors';
+
+.main_section {
+	height: 100vh;
+	background: linear-gradient(135deg, black 40%, #147D6C 80%, #1EFFFF 100%);
+	overflow: hidden;
+
+	.content {
+		position: absolute;
+		top: 27vh;
+		width: 540px;
+		z-index: 100;
+		overflow: hidden;
+
+		h1 {
+			margin-bottom: 35px;
+		}
+
+		p.description {
+			color: #FFF;
+			font-family: Lato;
+			font-size: 21px;
+			font-weight: 300;
+			line-height: 34px;
+		}
+
+		.button_group {
+			margin-top: 60px;
+
+			button:first-child {
+				margin-right: 14px;
+			}
+		}
+
+		.dimmer {
+			display: none;
+		}
+	}
+}
+
+.section {
+	padding: 140px 0;
+
+	&.second_section {
+		p:first-of-type {
+			margin-bottom: 30px;
+		}
+
+		h2 {
+			margin-bottom: 30px;
+		}
+
+		.small_paragraph {
+			max-width: 540px;
+			margin: auto;
+		}
+	}
+
+	&.third_section {
+		h2 {
+			margin-bottom: 20px;
+		}
+
+		p {
+			max-width: 770px;
+			margin-bottom: 100px;
+
+			&:last-of-type {
+				margin-bottom: 40px;
+			}
+		}
+
+		img {
+			max-width: 860px;
+			margin-bottom: 100px;
+		}
+
+		.download_app_links {
+			display: flex;
+			justify-content: center;
+
+			img {
+				width: 170px;
+				margin: 0 21px;
+			}
+		}
+	}
+
+	&.integrations_list_section {
+		padding: 0;
+	}
+
+	&.contact_section {
+		h5 {
+			margin: 25px auto;
+		}
+
+		p:last-of-type {
+			max-width: 560px;
+		}
+
+		button {
+			margin-top: 50px;
+		}
+	}
+
+	.groups {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin-top: 120px;
+
+		div {
+			width: 300px;
+			height: 300px;
+			background-image: url('/images/gumb-solarsystem.svg');
+			background-position: center;
+			background-size: cover;
+			margin: 10px 6px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+
+	.statistics {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin-top: 180px;
+
+		.statistics_item {
+			width: 25%;
+
+			h3 {
+				margin-bottom: 14px;
+			}
+
+			p {
+				text-transform: uppercase;
+			}
+		}
+	}
+}
+
+@media all and (max-width: 900px) {
+	.main_section {	
+		.content {
+			width: 100%;
+			position: relative;
+
+			p.description {
+				font-size: 19px;
+				line-height: 28px;
+			}
+		}
+	}
+
+	.section {
+		padding: 80px 0;
+	
+		&.second_section {
+			p {
+				font-size: 15px;
+				line-height: 22px;
+			}
+
+			p:first-of-type {
+				margin-bottom: 10px;
+				font-size: 12px;
+			}
+	
+			h2 {
+				font-size: 45px;
+				line-height: 50px;
+			}
+		}
+	
+		&.third_section {
+			h3 {
+				font-size: 35px;
+				line-height: 40px;
+			}
+	
+			p {
+				font-size: 15px;
+				line-height: 22px;
+				margin-bottom: 20px;
+			}
+	
+			img {
+				width: 80%;
+				margin-bottom: 100px;
+			}
+		}
+	
+		&.integrations_list_section {
+			display: none;
+		}
+	
+		&.groups_section {
+			p:first-of-type {
+				margin-bottom: 10px;
+				font-size: 12px;
+			}
+	
+			h3 {
+				font-size: 40px;
+				line-height: 45px;
+			}
+
+			.groups {
+				flex-wrap: wrap;
+				margin-top: 60px;
+
+				p {
+					font-size: 15px;
+					line-height: 22px;
+				}
+		
+				h2 {
+					font-size: 45px;
+					line-height: 50px;
+				}
+		
+				div {
+					width: 200px;
+					height: 200px;
+					margin: 20px;
+				}
+			}
+		}
+
+		&.contact_section {
+			p:first-of-type {
+				margin-bottom: 10px;
+				font-size: 12px;
+			}
+
+			h5 {
+				margin: 15px auto;
+			}
+	
+			p:last-of-type {
+				font-size: 15px;
+				line-height: 22px;
+			}
+	
+			button {
+				margin-top: 30px;
+			}
+		}
+	}
+}
+
+@media all and (max-width: 600px) {
+	.main_section {
+		.content {
+			top: 0;
+			padding-top: 55px;
+			height: 100vh;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+
+			.button_group {
+				position: relative;
+				margin-top: 40px;
+				height: auto;
+				flex-wrap: wrap;
+				flex-direction: column;
+
+				button {
+					margin-bottom: 20px;
+					width: max-content;
+				}
+			}
+		}
+	}
+
+	.section {
+		padding: 50px 0;
+
+		&.third_section {
+			.download_app_links {
+				display: flex;
+				justify-content: center;
+				flex-wrap: wrap;
+	
+				img {
+					width: 50%;
+					margin: 10px;
+				}
+			}
+		}
+	
+		&.groups_section {
+			.groups {
+				div {
+					width: 200px;
+					height: 200px;
+					margin: 20px;
+				}
+			}
+		}
+	}
+}

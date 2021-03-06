@@ -1,0 +1,12 @@
+{
+    "home": "Home",
+    "why": " Why Gumb?",
+    "about": "About us",
+    "price": "Pricing",
+    "community": "Community",
+    "support": "Support",
+    "headerButton": {
+        "temporaryButtonText": "Test for 30 days",
+        "mainButtonText": "Log In"
+    }
+}

@@ -1,0 +1,66 @@
+{
+  "title": "Einswerden,<brPure>Zusammen.",
+  "descriptionFirstPart": "Ob ihr ein Sportverein, ein Angelklub oder eine Bläsergruppe seid, mit",
+  "descriptionGradientWord": " Gumb",
+  "descriptionSecondPart": " habt Ihr die richtige App zum Organisieren eurer Termine, Events oder Meetings.",
+  "buttons": {
+    "red": "30 Tage kostenlos testen",
+    "blue": "Gumb im Browser öffnen"
+  },
+  "whitePresentation": {
+      "smallTitle": "UNSERE ERSTE APP",
+      "title": "Gumb",
+      "secondaryTitle": "und Dein Team ist organisiert.",
+      "text": "Mit dem Online Spiel- und Trainingsplaner für Vereine, Clubs und Mannschaften organisierst du Dich und Dein Team einfach und schnell. Gumb ist unsere Terminverwaltungs-App und ist für all Deine Geräte verfügbar.",
+    "featuresList": [
+      {
+        "title": "Organisiere Vereins-Termine schnell und unkompliziert",
+        "description": "Gumb ermöglicht eine einfache An- und Abmeldung für Trainings, Spiele, Proben, Auftritte oder Sitzungen. Es erspart ewiges Hin-und-Her per E-Mail. Es vermeidet hektische Telefonate und Chats kurz vor anstehenden Terminen."
+      },
+      {
+        "title": "Verschaffe Dir einen Überblick über Termine und Anwesenheit",
+        "description": "Leiter und Mitglieder können sich jederzeit mit Internet oder Handy über die Termine und die An-/Abmeldungen informieren. Damit kann jedes Training und jede Probe zuverlässig geplant werden (Wer kommt? Wer übernimmt welche Aufgabe?)."
+      },
+      {
+        "title": "Analysiere Anwesenheit und unentschuldigtes Fernbleiben",
+        "description": "Gumb ermöglicht eine einfache An- und Abmeldung für Trainings, Spiele, Proben, Auftritte oder Sitzungen. Es erspart ewiges Hin-und-Her per E-Mail. Es vermeidet hektische Telefonate und Chats kurz vor anstehenden Terminen."
+      }
+    ],
+    "lastSection": {
+      "title": "Überall verfügbar wo Ihr seid",
+      "text": "Die Gumb App gibt es sowohl als App für iOS und Android als auch als Web-App. In der Web-App habt Ihr mehr Übersicht als auf dem Smartphone."
+    }
+  },
+  "appSection": {
+    "title": "Hol Dir die App und teste 30 Tage kostenlos."
+  },
+  "circles": {
+    "smallTitle": "FÜR WEN WIR DAS MACHEN",
+    "titleGradientFirst": "Im Mittelpunkt bei uns stehst",
+    "titleGradientSecond": "Du",
+    "titleGradientThird": " und alle",
+    "content": {
+      "first": "Vereine",
+      "second": "Gruppen",
+      "thirdFirst": "Mann-",
+      "thirdSecond": "schaften",
+      "Fourth": "Verbände"
+    }
+  },
+  "team": {
+    "smallTitle": "TEAM- & EVENTMANAGEMENT",
+    "title": "Sind Sie ein Unternehmen?",
+    "text": "Ganz gleich ob im Verein oder im großen Unternehmen. Durch unsere Softwarelösungen & Apps wird Team- & Eventmanagement mühelos und einfach. Auch in Ihrer Organisation!",
+    "contactButton": "Kontaktieren Sie uns einfach per E-Mail"
+  },
+  "stats": {
+    "title": "Die Statistiken & Zahlen",
+    "smallTitle": "...die unsere Geschichte erzählen",
+    "registered": "Registrierte <brPure> Mitglieder",
+    "clubs": "Vereine",
+    "countries": "Länder",
+    "events": "Erfolgreich mit gumb organisierte<brPure>Anlässe & Termine",
+    "online": "Gerade online",
+    "messages": "täglich gesendete<brPure>nachrichten"
+  }
+}

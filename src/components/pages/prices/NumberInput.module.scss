@@ -1,0 +1,43 @@
+.box {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 2px solid #FF6C5B;
+	border-radius: 4px;
+	width: 93px;
+	position: relative;
+
+	.value {
+		width: 40%;
+		overflow: hidden;
+		text-align: center;
+
+		span {
+			display: inline-block;
+			transform: scale(0);
+			font-size: 13px;
+			font-weight: 700;
+			transition: transform 0.1s;
+		}
+	}
+
+	img {
+		width: 14px;
+		height: 14px;
+		cursor: pointer;
+		transition: transform 0.2s;
+
+		&.disabled {
+			opacity: 0.5;
+			pointer-events: none;
+		}
+
+		&:hover {
+			transform: scale(1.1);
+		}
+
+		&:active {
+			transform: scale(1);
+		}
+	}
+}

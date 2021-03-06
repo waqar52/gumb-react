@@ -1,0 +1,43 @@
+{
+    "title":"Powering togetherness",
+    "paragraph": "Gumb helps clubs and groups of all kinds and sizes grow and achieve the best results with a unique online experience and innovative tools on a single platform.",
+    "lowerTitle":{
+        "firstWord": "What are our ",
+        "gradientWord": " core values",
+        "lastWord": "The basis of all our decisions"
+    },
+    "valueList": [
+        { 
+            "value": "user_oriented",
+            "label": "User-oriented",
+            "content": {
+                "title": "We focus on the user",
+                "description": "Everything we do must start and end with our users in mind. We advocate for you, your club, your association and team, and we aim to exceed your expectations with everything we do."
+            }
+        },
+        { 
+            "value": "open",
+            "label": "Open",
+            "content": {
+                "title": "We're always open",
+                "description": "With our users and with each other. We’re open to new ideas, new ways of working and open to being challenged."
+            }
+        },
+        { 
+            "value": "continuously_improve",
+            "label": "Continuously improve",
+            "content": {
+                "title": "We continuously improve",
+                "description": "We don’t stand still. We continuously improve everything; the product, the experience, the support. We love feedback from users & groups of any kind."
+            }
+        },
+        { 
+            "value": "global_local",
+            "label": "Global & local",
+            "content": {
+                "title": "We think globally, we act locally",
+                "description": "" 
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "HOME": {
+        "title": "Gumb · Einswerden, Zusammen.",
+		"description": "Ob ihr ein Sportverein, ein Angelklub oder eine Bläsergruppe seid, mit Gumb habt Ihr die richtige App zum Organisieren eurer Termine, Events oder Meetings."
+    },
+	"PRICES": {
+        "title": "Preise · Gumb",
+		"description": "Gumb. Pläne und Preise."
+    },
+	"CONTACT_US": {
+        "title": "Kontaktiere Uns · Gumb",
+		"description": "Kontaktiere unser Team"
+    },
+	"SUPPORT": {
+        "title": "Support · Gumb",
+		"description": "Du brauchst Hilfe? Hier findest Du alles was Du brauchst."
+    },
+	"ABOUT_US": {
+        "title": "Über uns · Gumb",
+		"description": "Gumb hilft Vereinen und Gruppen jeder Art & Größe, mit einem einzigartigem Online-Erlebnis und innovativen Tools auf einer einzigen Plattform, zu wachsen und die besten Ergebnisse zu erzielen."
+    },
+	"PRIVACY": {
+        "title": "Datenschutz · Gumb",
+		"description": "Gumb Datenschutzerklärung"
+    },
+	"TERMS": {
+        "title": "AGB · Gumb",
+		"description": "Gumb AGB"
+    },
+	"IMPRINT": {
+        "title": "Impressum · Gumb",
+		"description": "Gumb Impressum"
+    }
+}

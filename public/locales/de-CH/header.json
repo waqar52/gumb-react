@@ -1,0 +1,12 @@
+{
+    "home": "Home",
+    "why": "Warum Gumb?",
+    "about": "Über uns",
+    "price": "Preise",
+    "community": "Community",
+    "support": "Support",
+    "headerButton": {
+        "temporaryButtonText": "Jetzt 30 Tage testen",
+        "mainButtonText": "Anmelden"
+    }
+}

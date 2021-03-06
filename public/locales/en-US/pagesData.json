@@ -1,0 +1,34 @@
+{
+    "HOME": {
+        "title": "Gumb · Become One, Together.",
+		"description": "Whether you are a sports club, a fishing club or a brass group, with Gumb you have the right app for organizing your appointments, events or meetings."
+    },
+	"PRICES": {
+        "title": "Pricing · Gumb",
+		"description": "Gumb. Plans and Pricing."
+    },
+	"CONTACT_US": {
+        "title": "Contact Us · Gumb",
+		"description": "Contact our Team"
+    },
+	"SUPPORT": {
+        "title": "Support · Gumb",
+		"description": "Do you need help? Here you will find everything you need."
+    },
+	"ABOUT_US": {
+        "title": "About Us · Gumb",
+		"description": "Gumb helps clubs and groups of all types and sizes to grow and achieve the best results with a unique online experience and innovative tools on a single platform."
+    },
+	"PRIVACY": {
+        "title": "Privacy Policy · Gumb",
+		"description": "Gumb Privacy Policy"
+    },
+	"TERMS": {
+        "title": "Terms and Conditions · Gumb",
+		"description": "Gumb Terms and Conditions"
+    },
+	"IMPRINT": {
+        "title": "Imprint · Gumb",
+		"description": "Gumb Imprint"
+    }
+}

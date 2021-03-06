@@ -1,0 +1,20 @@
+{
+    "title": "Contact Us",
+    "faq": "Suggested FAQs",
+    "forms": {
+        "howWeCanHelp": "How can we help?",
+        "subject": "Type of problem",
+        "plattform": "Platform",
+        "email": "Email",
+        "name": "Name of your community",
+        "description": "Describe the problem",
+        "submit": "Send"
+    },
+    "supportTitle": "Support Center",
+    "supportInputPlaceholder": "Search",
+    "emailSendMessage": "Your message was successfully sent!",
+    "pageBreadCrumbs": {
+        "support": "Support",
+        "contactUs": "Contact Us"
+    }
+}

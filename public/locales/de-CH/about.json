@@ -1,0 +1,43 @@
+{
+    "title":"Zusammensein fördern",
+    "paragraph": "Gumb hilft Vereinen und Gruppen jeder Art & Größe, mit einem einzigartigem Online-Erlebnis und innovativen Tools auf einer einzigen Plattform, zu wachsen und die besten Ergebnisse zu erzielen.",
+    "lowerTitle":{
+        "firstWord": "Was sind unsere",
+        "gradientWord": "Grundwerte",
+        "lastWord": "Das Fundament all unserer Entscheidungen"
+    },
+    "valueList": [
+        { 
+            "value": "benutzerorientiert",
+             "label": "Benutzerorientiert",
+            "content": {
+                "title": "Wir fokussieren uns auf den Nutzer",
+                "description": "Alles, was wir tun, beginnt und endet mit dem Blick auf unsere Nutzer. Wir setzen uns für dich, dein Verein, deine Mannschaft und deine Gruppe ein und sind bestrebt, Deine Erwartungen mit allem, was wir tun, zu übertreffen."
+            }
+        },
+        { 
+            "value": "offen",
+            "label": "Offen",
+            "content": {
+                "title": "Wir sind immer offen",
+                "description": "Mit unseren Nutzern und untereinander. Wir sind offen für neue Ideen, neue Arbeitsmethoden und offen dafür, herausgefordert zu werden."
+            }
+        },
+        {   
+            "value": "ständige_verbesserung",
+            "label": "Ständige Verbesserung",
+            "content": {
+                "title": "Wir verbessern uns ständig",
+                "description": "Wir stehen nicht still. Wir verbessern ständig alles; Das Produkt, die Erfahrung, den Support. Wir lieben das Feedback von Nutzern und Gruppen jeder Art."
+            }
+        },
+        { 
+            "value": "global_lokal",
+            "label": "Global & Lokal",
+            "content": {
+                "title": "Wir denken global ,wir handeln lokal",
+                "description": "" 
+            }
+        }
+    ]
+}

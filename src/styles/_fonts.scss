@@ -1,0 +1,154 @@
+@use 'colors';
+
+h1 {
+	color: white;
+	font-family: Lato;
+	font-weight: 900;
+	font-size: 70px;
+	line-height: 84px;
+
+	&.centered {
+		text-align: center;
+		margin: auto;
+	}
+}
+
+h2 {
+	color: colors.$font-1;
+	font-family: Lato;
+	font-size: 55px;
+	font-weight: 700;
+	line-height: 66px;
+	text-align: center;
+}
+
+h3 {
+	color: colors.$font-1;
+	font-family: Lato;
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 54px;
+	text-align: center;
+	margin-bottom: 34px;
+}
+
+h4 {
+	color: colors.$font-1;
+	font-family: Lato;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 48px;
+	text-align: center;
+}
+
+h5 {
+	color: colors.$font-1;
+	font-family: Lato;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 30px;
+	
+	&.centered {
+		text-align: center;
+		margin: auto;
+	}
+}
+
+p {
+	color: colors.$font-2;
+	font-family: Lato;
+	font-size: 17px;
+	line-height: 25px;
+
+	&.centered {
+		text-align: center;
+		margin: auto;
+
+		&.small {
+			margin-bottom: 30px;
+		}
+	}
+
+	&.small_paragraph {
+		max-width: 540px;
+		margin: auto;
+	}
+
+	&.small {
+		font-size: 13px;
+	}
+
+	b {
+		color: colors.$font-1;
+	}
+}
+
+a {
+	&.green_link {
+		color: colors.$green;
+	}
+}
+
+li {
+	color: colors.$font-2;
+	font-family: Lato;
+	font-size: 17px;
+	line-height: 25px;
+
+	&.content_list_item {
+		padding-left: 20px;
+		margin-bottom: 10px;
+	}
+}
+
+label {
+	color: colors.$font-1;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19px;
+}
+
+span.gradient {
+	position: relative;
+	background-image: linear-gradient(90deg, rgb(20, 126, 109), rgb(30, 252, 252));
+	background-size: 100%;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+	-moz-background-clip: text;
+	-moz-text-fill-color: transparent;
+	background-color: colors.$green;
+
+	&.with_dot:before {
+		content: "";
+		position: absolute;
+		top: 25px;
+		left: -20px;
+		width: 9px;
+		height: 9px;
+		background-color: #3e8575;
+		border-radius: 50%;
+	}
+}
+
+@media all and (max-width: 900px) {
+	h1 {
+		font-size: 60px;
+		line-height: 68px;
+	}
+
+	p {
+		&.content_paragraph {
+			font-size: 16px;
+			line-height: 22px;
+		}
+	}
+
+	li {
+		&.content_list_item {
+			font-size: 16px;
+			line-height: 22px;
+		}
+	}
+}

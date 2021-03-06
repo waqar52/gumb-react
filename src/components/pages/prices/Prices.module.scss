@@ -1,0 +1,159 @@
+@use '../../../styles/colors';
+
+.prices_section {
+	margin-top: 140px;
+}
+
+.plans {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+	.plan_loading {
+		position: relative;
+		width: 310px;
+		height: 640px;
+		border-radius: 10px;
+		box-shadow: 2px 5px 20px 0 rgba(0,0,0,0.05);
+		padding: 36px 24px 112px 24px;
+		margin: 0 11px;
+	}
+}
+
+.toggler {
+	width: 370px;
+	display: flex;
+	justify-content: center;
+	margin: 88px auto 54px auto;
+
+	div {
+		width: 50%;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		border-radius: 3px 0 0 3px;
+		border: 1.4px solid #A5BFCE;
+		cursor: pointer;
+		
+		&.selected {
+			border-color: colors.$green;
+
+			p {
+				color: colors.$green;
+			}
+		}
+
+		&:first-of-type {
+			border-right: 1.4px solid colors.$green;
+		}
+
+		&:last-of-type {
+			border-radius: 0 3px 3px 0;
+			border-left: none;
+		}
+		
+		p {
+			margin: 0;
+			text-align: center;
+			position: relative;
+
+			.discount {
+				width: 27px;
+				height: 14px;
+				position: absolute;
+				color: #F6FBFA;
+				font-family: Lato;
+				font-size: 10px;
+				font-weight: 700;
+				text-align: center;
+				border-radius: 1.5px;
+				background-color: #FF6C5B;
+				padding: 0;
+				line-height: 14px;
+				top: -5px;
+				right: 14%;
+				border: none;
+			}
+		}
+	}
+}
+
+@media all and (max-width: 1400px) {
+	.plans_box {
+		width: 100%;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		padding: 20px 0px;
+
+		.plans {
+			width: 1400px;
+		}
+
+		&::-webkit-scrollbar {
+			width: 4px;
+			height: 4px;
+		}
+		
+		&::-webkit-scrollbar-track {
+			background: rgba(168, 168, 168, 0.034);
+			border: 1px solid rgba(0, 0, 0, 0.062);
+			border-radius: 2px;
+		}
+		
+		&::-webkit-scrollbar-thumb {
+			background: colors.$green;
+			border-radius: 2px;
+		}
+	}
+}
+
+
+@media all and (max-width: 900px) {
+	.prices_section {
+		margin-top: 0;
+		padding-top: 60px;
+	}
+
+	.toggler {
+		max-width: 370px;
+		width: auto;
+		display: flex;
+		justify-content: center;
+		margin: 88px auto 54px auto;
+	
+		div {
+			width: 50%;
+		}
+	}
+
+	.plans_box {
+		width: 100%;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		padding: 20px 0px;
+
+		.plans {
+			width: 1400px;
+
+			.plan_loading {
+				min-width: 310px;
+				margin: 0 20px;
+			}
+		}
+
+		&::-webkit-scrollbar {
+			width: 4px;
+			height: 4px;
+		}
+		
+		&::-webkit-scrollbar-track {
+			background: rgba(168, 168, 168, 0.034);
+			border: 1px solid rgba(0, 0, 0, 0.062);
+			border-radius: 2px;
+		}
+		
+		&::-webkit-scrollbar-thumb {
+			background: colors.$green;
+			border-radius: 2px;
+		}
+	}
+}

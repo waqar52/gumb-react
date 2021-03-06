@@ -1,0 +1,20 @@
+{
+    "title": "Kontaktiere unser Team",
+    "faq": "Vorgeschlagene FAQs",
+    "forms": {
+        "howWeCanHelp": "Wie können wir dir helfen?",
+        "subject": "Art des Problems",
+        "plattform": "Plattform",
+        "email": "Email",
+        "name": "Name deiner Community/Gemeinschaft",
+        "description": "Beschreibe dein Problem",
+        "submit": "Abschicken"
+    },
+    "supportTitle": "Support Center",
+    "supportInputPlaceholder": "Suche",
+    "emailSendMessage": "Ihre Nachricht wurde erfolgreich gesendet!",
+    "pageBreadCrumbs": {
+        "support": "Support",
+        "contactUs": "Kontaktiere unser Team"
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Pricing & Plans",
+  "yearly": "Annually",
+  "monthly": "Monthly",
+  "year": "year",
+  "month": "month",
+  "freePlan": {
+    "name": "Test 30 days free of charge",
+    "description": "Start your first free month now",
+    "features": [
+      "You do not have to pay anything until your free month is over.",
+      "We will remind you 5 days before your free month ends.",
+      "No obligations, can be cancelled at any time."
+    ],
+    "buttonText": "Test for 30 days"
+  },
+  "chatIncluded": "Chat included",
+  "noChat": "No Chat",
+  "groups": "Groups",
+  "members": "Members",
+  "communities": "Communities",
+  "buttonText": "Register"
+}

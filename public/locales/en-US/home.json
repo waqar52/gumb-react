@@ -1,0 +1,66 @@
+{
+  "title": "Become One,<brPure>Together.",
+  "descriptionFirstPart": "Whether you are a sports club, a fishing club or a brass band, with",
+  "descriptionGradientWord": " Gumb",
+  "descriptionSecondPart": " you have the right app to organize your appointments, events or meetings.",
+  "buttons": {
+    "red": "30 days free trial",
+    "blue": "Open Gumb in browser"
+  },
+  "whitePresentation": {
+    "smallTitle": "OUR FIRST APP",
+    "title": "Gumb",
+    "secondaryTitle": "and your team is organized.",
+    "text": "With the online game, event and training planner for teams, clubs and associations you can organize yourself and your team easily and quickly. Gumb is our scheduling app and is available for all your devices.",
+    "featuresList": [
+      {
+        "title": "Organize club dates quick and easy",
+        "description": "Gumb enables easy registration and cancellation for trainings, games, rehearsals, events or meetings. It eliminates the back and forth emails. It avoids hectic phone-calls and chats shortly before upcoming appointments."
+      },
+      {
+        "title": "Get an overview of appointments and attendance",
+        "description": "Leaders and members can inform themselves at any time about the dates and the registration/deregistration. This allows each training session, event and rehearsal to be reliably planned (Who attends? Who does what?)."
+      },
+      {
+        "title": "Analyze attendance and unexcused absence",
+        "description": "The annual attendance, appointments and unexcused absences can be easily evaluated within a few seconds. These statistics facilitate the creation of annual reports and accounts."
+      }
+    ],
+    "lastSection": {
+      "title": "IOS, ANDROID & WEB",
+      "text": "Gumb, on all your devices."
+    }
+  },
+  "appSection": {
+    "title": "Get the app and test it 40 days for free."
+  },
+  "circles": {
+    "smallTitle": "FOR WHOM WE DO IT",
+    "titleGradientFirst": "At the heart of our value creation we center",
+    "titleGradientSecond": "you",
+    "titleGradientThird": " and all",
+    "content": {
+      "first": "Associa­tions",
+      "second": "Groups",
+      "thirdFirst": "Teams",
+      "thirdSecond": "",
+      "Fourth": "Clubs"
+    }
+  },
+  "team": {
+    "smallTitle": "TEAM- & EVENT MANAGEMENT",
+    "title": "Do you represent a business?",
+    "text": "No matter whether in a club or a large company. Our software solutions & apps enable effortless and simple team & event management. Perfect for your organization!",
+    "contactButton": "Contact us via E-Mail"
+  },
+  "stats": {
+    "title": "The stats and figures",
+    "smallTitle": "...that tell our story",
+    "registered": "Registered <brPure> members",
+    "clubs": "Clubs",
+    "countries": "Countries",
+    "events": "Created<brPure>Events & Meetings",
+    "online": "Currently online",
+    "messages": "Sent messages<brPure>every day"
+  }
+}

@@ -1,0 +1,104 @@
+@use '../../../../styles/colors';
+
+.content_section {
+    min-height: 600px;
+    position: relative;
+
+	.content {
+		display: flex;
+		justify-content: flex-start;
+        margin-top: 110px;
+
+		.articles_titles {
+            width: 20%;
+            margin-right: 3%;
+
+			h3 {
+                font-size: 20px;
+                margin-top: 0;
+                margin-bottom: 10px;
+                text-align: left;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 25px;
+                font-weight: 300;
+                margin: 0;
+                margin-bottom: 10px;
+            }
+        }
+        
+        .articles_titles_mobile {
+            display: none;
+        }
+	
+		.article {
+            width: 70%;
+            overflow: hidden;
+
+            h2 {
+                font-size: 32px;
+                margin-top: 0;
+                margin-bottom: 34px;
+                text-align: left;
+            }
+
+            .content_paragraph {
+                font-size: 16px;
+                line-height: 30px;
+            }
+
+            .content_link {
+                color: colors.$green;
+            }
+		}
+	}
+}
+
+@media all and (max-width: 900px) {
+    .content_section {
+        min-height: 400px;
+    
+        .content {
+            margin-top: 40px;
+            flex-direction: column;
+    
+            .articles_titles {
+                display: none;
+            }
+
+            .articles_titles_mobile {
+                display: block;
+                width: 100%;
+                margin-top: 20px;
+
+                h3 {
+                    font-size: 18px;
+                    text-align: left;
+                    margin-bottom: 0;
+                }
+
+                p {
+                    font-size: 13px;
+                    line-height: 22px;
+                    margin-bottom: 10px;
+                }
+            }
+        
+            .article {
+                width: 100%;
+    
+                h2 {
+                    font-size: 28px;
+                    margin-bottom: 10px;
+                }
+    
+                .content_paragraph {
+                    font-size: 13px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+}

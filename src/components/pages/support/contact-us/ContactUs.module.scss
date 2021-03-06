@@ -1,0 +1,51 @@
+.content_section {
+	h2 {
+		font-size: 32px;
+		font-weight: 700;
+		line-height: 38px;
+		text-align: start;
+	}
+
+	.content {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 50px;
+
+		.contact_us_part {
+			width: 50%;
+			margin-right: 10%;
+		}
+	
+		.faq_part {
+			width: 40%;
+		}
+	}
+}
+
+@media all and (max-width: 900px) {
+	.content_section {
+		h2 {
+			font-size: 28px;
+			margin-bottom: 10px;
+		}
+	
+		.content {
+			flex-direction: column;
+			margin-top: 40px;
+	
+			div:first-of-type {
+				width: 100%;
+				margin-right: 10%;
+
+				form {
+					margin-top: 40px;
+				}
+			}
+		
+			div:last-of-type {
+				width: 100%;
+				margin-top: 50px;
+			}
+		}
+	}
+}
